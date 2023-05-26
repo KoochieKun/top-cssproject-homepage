@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    background-color: #fff;
+    background-color: white;
     color: #524B48;
     display: flex;
     justify-content: center;
@@ -10,11 +10,13 @@ body {
 }
 header {
 
-    color: #524B48;
+    color: rgb(97, 0, 105);
     display: flex;
-    align-items: center;
+    align-items: start;
     padding: 10px;
-    width: 60%;
+    background-color: white;
+    justify-content: center;
+
 
 }
 
@@ -22,13 +24,15 @@ header {
     display: flex;
     flex: 1 1 300px;
     justify-content: end;   
-    gap: 100px; 
+    gap: 50px; 
+    margin-right: auto;
+    margin-top:20px;
 }
 .contentA {
     display: flex;
     justify-content: center;
     gap: 30px;
-    color: #009322;
+    color: rgb(97, 0, 105);
     align-items: center;
     flex:1;
 }
@@ -38,8 +42,8 @@ header {
 }
 
 .hero > button {
-    background-color: #80ed99;
-    color: rgb(30, 30, 30);
+    background-color: #ffc8dd;
+    color: brown;
     border: 0;
     font-size: 20px;
     padding: 8px 15px;
@@ -56,6 +60,10 @@ header {
 
 .contentB{
     text-align: center;
+    background-color: #d5c3df;
+    width: 100%;
+    margin-top: 10px;
+    color: rgb(97, 0, 105);
 }
 .contentB > h2 {
     margin: 50px;
@@ -63,6 +71,7 @@ header {
 .contentB > div{
     display: flex;
     gap: 30px;
+    justify-content: center;
 
 }
 .locations > div > img {
@@ -70,5 +79,58 @@ header {
     height: 200px;
     object-fit: cover;
     border-radius: 30px;
-    border: 2px solid rgb(43, 253, 166);
+    border: 2px solid #d5c3df
 }
+.contentC {
+    background-color: white;
+    color: rgb(97, 0, 105);
+    font-size: 20px;
+    padding: 30px 200px;
+    text-align: center;
+}
+.banner {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #d5c3df;
+}
+.banner > div {
+    display: flex;
+    width: 800px;
+    margin: 30px;
+    background-color: #ffc8dd;
+    border-radius: 20px;
+    color: rgb(97, 0, 105);
+    align-items: center;
+    justify-content: center;
+}
+.act {
+    flex: 1; 
+    padding: 10px 20px;
+    width: 500px;
+
+}
+#apply {
+    margin-right: 30px;
+    background-color: #5c5360;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: white;
+    color: brown;
+
+}
+footer {
+    background-color: white;
+
+    width: 100%;
+    text-align: center;
+    color: rgb(97, 0, 105);
+
+    
+}
+
